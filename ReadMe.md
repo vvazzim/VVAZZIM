@@ -16,8 +16,6 @@
 [![M.Sc. Vision](https://img.shields.io/badge/M.Sc._Research-Université_Paris_Cité-bb9af7?style=flat-square&logo=academia&labelColor=0d1117)](https://u-paris.fr)
 [![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-Expert_AZ--400-7dcfff?style=flat-square&logo=microsoftazure&labelColor=0d1117)](https://learn.microsoft.com/certifications/devops-engineer/)
 [![ANSSI 96%](https://img.shields.io/badge/ANSSI_SecNumacadémie-96%25_Verified-9ece6a?style=flat-square&logo=gnu-privacy-guard&labelColor=0d1117)](https://secnumacademie.gouv.fr)
-[![mypy strict](https://img.shields.io/badge/mypy-strict_0_errors-73daca?style=flat-square&logo=python&labelColor=0d1117)](https://github.com/vvazzim)
-[![pytest](https://img.shields.io/badge/pytest-213_passed-green?style=flat-square&logo=pytest&labelColor=0d1117)](https://github.com/vvazzim)
 
 <p align="center">
   <a href="https://chikhiwassim.netlify.app">🌐 Interactive Portfolio</a> •
@@ -49,11 +47,11 @@ Certified **Azure DevOps Expert (AZ-400)** and **ANSSI SecNumacadémie (96%)**, 
 
 ### 🛡️ 2. Sovereign SecOps, Threat Intel & IAM Governance
 - **CERT VINCI Operational Scale:** Maintaining and hardening an autonomous Python pipeline ingesting and triaging **1,500 security incident tickets/day** with **70% automated resolution** in active 24/7 production.
-- **Industrial Code Quality:** Core refiner engine governed by **213 automated pytest tests** (100% passing in < 6 seconds), **88% code coverage**, and **0 mypy strict type errors**. Unidirectional 3E architecture (Extract / Extend / Enrich) across 10 domain modules.
+- **Industrial Reliability:** Core refiner engine validated by 213 automated tests (88% code coverage). Unidirectional 3E architecture (Extract / Extend / Enrich) across 10 domain modules.
 - **Sovereign Local LLM Threat Triage:** Fine-tuned **Qwen2.5-3B via QLoRA 4-bit (NF4)** with post-hoc explainability, eliminating third-party cloud data leakage (Lin et al. 2025, Distilling Step-by-Step). Loss convergence ~0.35 on single-token classification.
 - **Visual Brand Impersonation & Anti-Quishing:** Dual-stage quishing detection combining zero-network **PyZbar** QR decoding with a **DINOv2 Siamese network** for pixel-level visual brand similarity matching and Unicode confusable homoglyph normalization.
 - **Enterprise IAM Governance:** Algorithmic Identity Governance & Administration (**IGA Role Mining**) engine discovering candidate Business Roles (PMR/GM) via bottom-up frequent itemset mining (S_thresh >= 0.65), detecting toxic Segregation of Duties (**SoD**) conflicts, and auditing Active Directory privilege creep.
-- **Stack:** Python 3.12, QLoRA, Cortex XSOAR, DINOv2, PyZbar, Active Directory, FastAPI, pytest, mypy, Streamlit, OpenPyXL.
+- **Stack:** Python 3.12, QLoRA, Cortex XSOAR, DINOv2, PyZbar, Active Directory, FastAPI, pytest, Streamlit, OpenPyXL.
 
 ### ⚙️ 3. Distributed Data Engineering & Sovereign MLOps
 - **Event Streaming Backbone:** Clustered **Apache Kafka + Zookeeper** handling high-throughput asynchronous event ingestion for distributed log analysis and decoupled alert dispatching (`confluent-kafka` with offset integrity callbacks).
