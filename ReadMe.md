@@ -1,7 +1,15 @@
 <div align="center">
 
-# Wassim CHIKHI
-### **Critical Systems & AI Engineer | Deep Learning R&D & Sovereign SecOps**
+```text
+  ██╗   ██╗██╗   ██╗ █████╗ ███████╗███████╗██╗███╗   ███╗
+  ██║   ██║██║   ██║██╔══██╗╚══███╔╝╚══███╔╝██║████╗ ████║
+  ██║   ██║██║   ██║███████║  ███╔╝   ███╔╝ ██║██╔████╔██║
+  ╚██╗ ██╔╝╚██╗ ██╔╝██╔══██║ ███╔╝   ███╔╝  ██║██║╚██╔╝██║
+   ╚████╔╝  ╚████╔╝ ██║  ██║███████╗███████╗██║██║ ╚═╝ ██║
+    ╚═══╝    ╚═══╝  ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝╚═╝     ╚═╝
+```
+
+### **CRITICAL SYSTEMS & AI ENGINEER | DEEP LEARNING R&D & SOVEREIGN SECOPS**
 *Computer Vision Research • 24/7 Security Operations • Distributed MLOps • High-Throughput SaaS*
 
 [![CERT VINCI](https://img.shields.io/badge/CERT_VINCI-24%2F7_Production-7aa2f7?style=flat-square&logo=shield&labelColor=0d1117)](https://www.vinci.com)
@@ -22,36 +30,47 @@
 
 </div>
 
-### `$ sysctl kernel.identity`
+## 🧭 Profile Overview
 
-```bash
-OPERATOR_ID="Wassim CHIKHI (vvazzim)"
-LOCATION="Paris, France (CET / UTC+1)"
-CURRENT_POSTURE="24/7 Production Operations at CERT VINCI (VINCI SA Holding)"
-ACADEMIC_BASE="M.Sc. Research in Computer Vision & Machine Intelligence (Université Paris Cité)"
-CREDENTIALS="Azure DevOps Expert (AZ-400) • ANSSI SecNumacadémie (96%) • PGP: 0xA8F90E52"
-CORE_PRINCIPLE="Zero Cloud Data Egress (Privacy by Design) • Deterministic & Verifiable AI"
-```
+AI & Critical Systems Engineer holding an **M.Sc. Research in Computer Vision & Machine Intelligence (Université Paris Cité)** and operating in **24/7 production at CERT VINCI (VINCI SA Holding)**.
+
+Certified **Azure DevOps Expert (AZ-400)** and **ANSSI SecNumacadémie (96%)**, my engineering approach is centered on sovereign, deterministic architectures: deploying production-grade deep learning models and event-driven data pipelines with zero third-party cloud data leakage (Privacy by Design).
 
 ---
 
-### 🏛️ Core Engineering Pillars
+## 🏛️ Core Engineering Pillars
 
-- **🧬 Computer Vision & Biomedical R&D:**  
-  Gigapixel Whole Slide Image (WSI) patch classification at 0.50 µm/px achieving **AUC = 0.87** on the Camelyon benchmark (SPPR / STR-RW with DINOv2 and Vision Transformers). Deep embeddings on **100,000 H&E patches** (`NCT-CRC-HE-100K`, PyTorch ResNet50 d=2048). Dense instance segmentation (**Cellpose v4**) and kinetic trajectory tracking (**TrackPy**) on HeLa cancer cells. Multimodal **CLIP** fine-tuning on medical ROCO datasets.
+### 🧬 1. Computer Vision & Biomedical R&D
+- **Computational Histopathology (WSI):** Gigapixel patch extraction at 20x magnification (0.50 µm/pixel), automated tissue segmentation, and Spatial Patch Paths Representation (SPPR / STR-RW) on the Camelyon benchmark achieving **AUC = 0.87** with Log-Sum-Exp aggregation (tau = 2.0).
+- **Colorectal Cancer Classification:** Deep embeddings extraction on **100,000 H&E patches** (`NCT-CRC-HE-100K`) across 9 tissue phenotypes using PyTorch ResNet50 (2048-dim latent space) with stratified anti-leakage splitting.
+- **Cellular Instance Tracking:** Dense instance segmentation via **Cellpose v4** (vector-flow representations, diameter 30px, flow 0.4) coupled with **TrackPy** (Crocker-Grier Kalman filter, memory 3 frames) for sub-pixel centroid trajectory tracking on HeLa cancer cells (`DIC-C2DH-HeLa`).
+- **Multimodal Alignment & Distillation:** Contrastive fine-tuning of Vision-Language **CLIP (ViT-B/32)** on medical ROCO datasets using symmetric InfoNCE loss (CIFAR-10 Acc@1 = 89.16%, Acc@5 = 99.08%). Knowledge distillation compressing ResNet50 (23.5M params) into ResNet18 (11.1M params) with student accuracy (**93.12%**) surpassing teacher (**92.97%**).
+- **Stack:** PyTorch 2.x, OpenSlide, Torchvision, Cellpose, TrackPy, OpenCV, Albumentations, Scikit-learn, CuPy.
 
-- **🛡️ Sovereign SecOps, Threat Intel & IAM (CERT VINCI):**  
-  Maintaining an autonomous Python triage pipeline handling **1,500 security tickets/day** with **70% automated resolution** in 24/7 production. Governed by **213 automated pytest tests** (88% coverage, 0 mypy strict errors). On-premise **Qwen2.5-3B QLoRA 4-bit** for threat extraction without cloud data leakage. Anti-quishing via **PyZbar** and **DINOv2 Siamese** brand spoofing detection. IGA Active Directory **Role Mining** with Segregation of Duties (SoD) toxic matrix audit.
+### 🛡️ 2. Sovereign SecOps, Threat Intel & IAM Governance
+- **CERT VINCI Operational Scale:** Maintaining and hardening an autonomous Python pipeline ingesting and triaging **1,500 security incident tickets/day** with **70% automated resolution** in active 24/7 production.
+- **Industrial Code Quality:** Core refiner engine governed by **213 automated pytest tests** (100% passing in < 6 seconds), **88% code coverage**, and **0 mypy strict type errors**. Unidirectional 3E architecture (Extract / Extend / Enrich) across 10 domain modules.
+- **Sovereign Local LLM Threat Triage:** Fine-tuned **Qwen2.5-3B via QLoRA 4-bit (NF4)** with post-hoc explainability, eliminating third-party cloud data leakage (Lin et al. 2025, Distilling Step-by-Step). Loss convergence ~0.35 on single-token classification.
+- **Visual Brand Impersonation & Anti-Quishing:** Dual-stage quishing detection combining zero-network **PyZbar** QR decoding with a **DINOv2 Siamese network** for pixel-level visual brand similarity matching and Unicode confusable homoglyph normalization.
+- **Enterprise IAM Governance:** Algorithmic Identity Governance & Administration (**IGA Role Mining**) engine discovering candidate Business Roles (PMR/GM) via bottom-up frequent itemset mining (S_thresh >= 0.65), detecting toxic Segregation of Duties (**SoD**) conflicts, and auditing Active Directory privilege creep.
+- **Stack:** Python 3.12, QLoRA, Cortex XSOAR, DINOv2, PyZbar, Active Directory, FastAPI, pytest, mypy, Streamlit, OpenPyXL.
 
-- **⚙️ Distributed Data Engineering & Sovereign MLOps:**  
-  Decoupled event streaming backbone via **Apache Kafka + Zookeeper** with partitioned delivery callbacks. Fine-tuned **DeBERTa-v3** transformer on FEVER benchmark achieving **F1 = 0.89**. Hardened **Kubernetes** deployments under strict RBAC policies (dedicated ServiceAccounts, least-privilege). Persistent storage on **PostgreSQL 15**.
+### ⚙️ 3. Distributed Data Engineering & Sovereign MLOps
+- **Event Streaming Backbone:** Clustered **Apache Kafka + Zookeeper** handling high-throughput asynchronous event ingestion for distributed log analysis and decoupled alert dispatching (`confluent-kafka` with offset integrity callbacks).
+- **NLP Fact & Threat Verification:** Fine-tuned **DeBERTa-v3** transformer model on FEVER and NLI benchmarks achieving **F1 = 0.89** on high-cardinality security incident payloads.
+- **Cloud-Native Hardened Orchestration:** Production Kubernetes deployments governed by least-privilege security policies (dedicated ServiceAccounts, strict **RBAC**, NGINX Ingress).
+- **Data Persistence & Indexing:** **PostgreSQL 15** running with optimized B-Tree and GIN indexes, pgvector embeddings, and automated connection pooling.
+- **Stack:** Apache Kafka, Zookeeper, Kubernetes, Docker, PostgreSQL 15, DeBERTa-v3, FastAPI, Azure DevOps (AZ-400).
 
-- **💻 High-Velocity Web & Real-Time SaaS:**  
-  **MAPARIS (Paris Security Pulse):** Monorepo real-time security tracking and dynamic hazard avoidance routing (Safe Routing) built with **Fastify**, **Socket.io WebSockets**, and **Leaflet**. **BABELSTORE:** Modern headless retail platform built on **Astro 5** (Google **Lighthouse 98+**, Zero-JS by default). 6 production SaaS deployed publicly.
+### 💻 4. High-Velocity Web & Real-Time SaaS
+- **MAPARIS (Paris Security Pulse):** Monorepo real-time security tracking platform built with **Fastify (NodeNext)**, **Socket.io WebSockets**, **Leaflet Dark Matter**, and a custom geometric hazard-avoidance routing algorithm (Safe Routing) computing orthogonal waypoints around active risk buffers.
+- **BABELSTORE:** Modern decoupled retail inventory and point-of-sale platform built on **Astro 5**, TypeScript, and Tailwind CSS, maintaining a verified Google **Lighthouse score of 98+** (Zero-JS by default).
+- **Full SaaS Ecosystem:** 6 production web applications deployed publicly (including Cozyspace-DZ, DZPIECE, MACDI, Real-Estate).
+- **Stack:** TypeScript, React 18, Fastify, Astro 5, Leaflet, Socket.io, Tailwind CSS, Supabase, Docker.
 
 ---
 
-### 📊 Benchmark & Inference Telemetry
+## 📊 Benchmark & Inference Telemetry
 
 | Model / Pipeline | Target Task | Parameters / Precision | VRAM / RAM | Latency (P95) | Benchmark Score |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -64,7 +83,7 @@ CORE_PRINCIPLE="Zero Cloud Data Egress (Privacy by Design) • Deterministic & V
 
 ---
 
-### 🚀 Production Systems & Open Source
+## 🚀 Production Systems & Repositories
 
 | System / Repository | Architectural Archetype | Core Production Metrics | Tech Stack | Status |
 | :--- | :--- | :--- | :--- | :---: |
