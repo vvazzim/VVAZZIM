@@ -9,8 +9,8 @@
     ╚═══╝    ╚═══╝  ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝╚═╝     ╚═╝
 ```
 
-### **CRITICAL SYSTEMS & AI ENGINEER | DEEP LEARNING R&D & SOVEREIGN SECOPS**
-*Computer Vision Research • 24/7 Security Operations • Distributed MLOps • High-Throughput SaaS*
+### **AI & COMPUTER VISION ENGINEER | DEEP LEARNING R&D & APPLIED SYSTEMS**
+*Computer Vision Research • SecOps Automation & Cyber AI • Distributed MLOps • Scalable SaaS*
 
 [![CERT VINCI](https://img.shields.io/badge/CERT_VINCI-24%2F7_Production-7aa2f7?style=flat-square&logo=shield&labelColor=0d1117)](https://www.vinci.com)
 [![M.Sc. Vision](https://img.shields.io/badge/M.Sc._Research-Université_Paris_Cité-bb9af7?style=flat-square&logo=academia&labelColor=0d1117)](https://u-paris.fr)
@@ -30,9 +30,9 @@
 
 ## 🧭 Profile Overview
 
-AI & Critical Systems Engineer holding an **M.Sc. Research in Computer Vision & Machine Intelligence (Université Paris Cité)** and operating in **24/7 production at CERT VINCI (VINCI SA Holding)**.
+AI & Computer Vision Engineer holding an **M.Sc. Research in Computer Vision & Machine Intelligence (Université Paris Cité)** with applied engineering experience deploying automated pipelines and AI tooling in production at **CERT VINCI (VINCI SA Holding)**.
 
-Certified **Azure DevOps Expert (AZ-400)** and **ANSSI SecNumacadémie (96%)**, my engineering approach is centered on sovereign, deterministic architectures: deploying production-grade deep learning models and event-driven data pipelines with zero third-party cloud data leakage (Privacy by Design).
+Certified **Azure DevOps Expert (AZ-400)** and **ANSSI SecNumacadémie (96%)**, my engineering approach is centered on deterministic, production-grade systems: deploying deep learning models, robust event-driven data pipelines, and privacy-preserving local AI architectures.
 
 ---
 
@@ -45,15 +45,15 @@ Certified **Azure DevOps Expert (AZ-400)** and **ANSSI SecNumacadémie (96%)**, 
 - **Multimodal Alignment & Distillation:** Contrastive fine-tuning of Vision-Language **CLIP (ViT-B/32)** on medical ROCO datasets using symmetric InfoNCE loss (CIFAR-10 Acc@1 = 89.16%, Acc@5 = 99.08%). Knowledge distillation compressing ResNet50 (23.5M params) into ResNet18 (11.1M params) with student accuracy (**93.12%**) surpassing teacher (**92.97%**).
 - **Stack:** PyTorch 2.x, OpenSlide, Torchvision, Cellpose, TrackPy, OpenCV, Albumentations, Scikit-learn, CuPy.
 
-### 🛡️ 2. Sovereign SecOps, Threat Intel & IAM Governance
+### 🛡️ 2. Cyber AI, Threat Intelligence & SecOps Automation
 - **CERT VINCI Operational Scale:** Maintaining and hardening an autonomous Python pipeline ingesting and triaging **1,500 security incident tickets/day** with **70% automated resolution** in active 24/7 production.
 - **Industrial Reliability:** Core refiner engine validated by 213 automated tests (88% code coverage). Unidirectional 3E architecture (Extract / Extend / Enrich) across 10 domain modules.
-- **Sovereign Local LLM Threat Triage:** Fine-tuned **Qwen2.5-3B via QLoRA 4-bit (NF4)** with post-hoc explainability, eliminating third-party cloud data leakage (Lin et al. 2025, Distilling Step-by-Step). Loss convergence ~0.35 on single-token classification.
+- **Local LLM Threat Triage:** Fine-tuned **Qwen2.5-3B via QLoRA 4-bit (NF4)** with post-hoc explainability for local incident classification, ensuring zero sensitive data leaves the enterprise environment (Lin et al. 2025, Distilling Step-by-Step). Loss convergence ~0.35 on single-token classification.
 - **Visual Brand Impersonation & Anti-Quishing:** Dual-stage quishing detection combining zero-network **PyZbar** QR decoding with a **DINOv2 Siamese network** for pixel-level visual brand similarity matching and Unicode confusable homoglyph normalization.
 - **Enterprise IAM Governance:** Algorithmic Identity Governance & Administration (**IGA Role Mining**) engine discovering candidate Business Roles (PMR/GM) via bottom-up frequent itemset mining (S_thresh >= 0.65), detecting toxic Segregation of Duties (**SoD**) conflicts, and auditing Active Directory privilege creep.
 - **Stack:** Python 3.12, QLoRA, Cortex XSOAR, DINOv2, PyZbar, Active Directory, FastAPI, pytest, Streamlit, OpenPyXL.
 
-### ⚙️ 3. Distributed Data Engineering & Sovereign MLOps
+### ⚙️ 3. Distributed Data Engineering & Production MLOps
 - **Event Streaming Backbone:** Clustered **Apache Kafka + Zookeeper** handling high-throughput asynchronous event ingestion for distributed log analysis and decoupled alert dispatching (`confluent-kafka` with offset integrity callbacks).
 - **NLP Fact & Threat Verification:** Fine-tuned **DeBERTa-v3** transformer model on FEVER and NLI benchmarks achieving **F1 = 0.89** on high-cardinality security incident payloads.
 - **Cloud-Native Hardened Orchestration:** Production Kubernetes deployments governed by least-privilege security policies (dedicated ServiceAccounts, strict **RBAC**, NGINX Ingress).
